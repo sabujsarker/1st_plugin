@@ -1,5 +1,10 @@
 <?php 
-
+function s_menu()
+{
+	
+add_options_page( 'my_setting', 'admin bar setting ', 'manage_options', 'my_plugin','callback' );
+}
+add_action( 'admin_menu', 's_menu' );
 
 function resister()
 {
@@ -50,12 +55,7 @@ function callback()
 	<?php
 }
 
-function s_menu()
-{
-	
-add_options_page( 'my setting', 'admin bar setting ', 'manage_options', 'my_plugin','callback' );
-}
-add_action( 'admin_menu', 's_menu' );
+
 
 
 function remove($value,$id)

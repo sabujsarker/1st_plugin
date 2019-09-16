@@ -19,18 +19,6 @@
 .admin input[type="checkbox"] {
     margin-right: 20px;
 }
-.wp-core-ui .button-primary {
-    background: black;
-    text-shadow: none;
-    height: 39px;
-    width: 130px;
-    font-family: 'Lato', sans-serif;
-    border: none;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    transition: .3s all;
-}
 {
 	font-family: 'Dancing Script', cursive;
 	font-family: 'Pathway Gothic One', sans-serif;
